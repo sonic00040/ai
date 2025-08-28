@@ -1,23 +1,22 @@
+# Ignore Google Cloud SDK
+google-cloud-sdk/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.log.*
+
 # Python
+venv/
+.env/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python/
 
-# Virtual environment
-.venv/
-virtualenv/
-env/
-
-# Environment variables
-.env
-.env.*
-
-# IDEs
-.vscode/
-.idea/
-
-# OS generated files
+# macOS
 .DS_Store
-Thumbs.db
+
+# Node
+node_modules/
+
+# Misc
+*.zip
+*.tar.gz
