@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-telegram-bot
+supabase
+sentence-transformers
+psycopg2-binary
+google-genai
+pydantic-settings
+numpy
+python-dotenv
