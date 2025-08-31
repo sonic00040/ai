@@ -42,4 +42,16 @@ This document tracks the progress of the development for the SaaS version of the
 *   **Status:** Completed & Tested. The bot is now responsive on the new architecture.
 
 ---
+
+### **Milestone: Phase 2 (Part 2) - Backend SaaS Logic**
+
+**Date:** August 31, 2025
+
+*   **Task:** Implemented the core SaaS logic for usage metering and limit enforcement.
+    *   `rag_service` now counts and returns token usage for each LLM call.
+    *   A new `usage_service` was implemented to record usage and check against plan limits.
+    *   `handler.py` now fully integrates this logic, enforcing limits before generating a response and recording usage after.
+*   **Status:** Completed. The backend is now feature-complete for the MVP.
+
+---
 *(This log will be updated as each new task is completed.)*
